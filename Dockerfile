@@ -14,7 +14,7 @@ RUN pip install Flask
 EXPOSE 8080
 
 # Define environment variable
-ENV NAME World
+ENV NAME New World
 
 # Run app.py when the container launches
 CMD ["python", "app.py"]
